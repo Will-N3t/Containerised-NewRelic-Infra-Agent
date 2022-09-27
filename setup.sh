@@ -1,3 +1,8 @@
+#!/bin/zsh
+
+#Output
+set -x
+
 # Build the docker image
 docker build -t newrelic-infra-agent .
 
